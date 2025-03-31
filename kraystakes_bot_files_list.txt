@@ -1,0 +1,56 @@
+### Root Files
+.env.example
+config.js
+deploy-commands.js
+index.js
+package.json
+package-lock.json
+README.md
+INSTALLATION_GUIDE.md
+DOCUMENTATION.md
+TROUBLESHOOTING.md
+CHANGELOG.md
+
+### Commands Directory
+commands/help.js
+commands/newbie.js
+commands/panel.js
+commands/setpanel.js
+commands/status.js
+
+### Modules Directory
+modules/adminPanel.js
+modules/changelogDebug.js
+modules/configurationSettings.js
+modules/discordBotLogs.js
+modules/eventCreation.js
+modules/eventManagement.js
+modules/guideHelp.js
+modules/leaderboard.js
+modules/payoutManagement.js
+modules/reportsLogs.js
+modules/scheduledEvents.js
+modules/winnerSelection.js
+
+### Database Directory
+database/dbInit.js
+database/models/bet.js
+database/models/configuration.js
+database/models/event.js
+database/models/index.js
+database/models/log.js
+database/models/payout.js
+
+### Utils Directory
+utils/embeds.js
+utils/interactions.js
+utils/logger.js
+utils/permissions.js
+utils/requestQueue.js
+utils/timeUtils.js
+utils/validators.js
+
+### Empty Directories with Placeholder Files
+backups/.gitkeep
+data/.gitkeep
+logs/.gitkeep
